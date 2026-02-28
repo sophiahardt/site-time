@@ -19,11 +19,13 @@ nav {
 
 #noticias {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(56, 100, 196);
-    margin: 40px;
-    display: flex;
+    text-align: center;
     flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(56, 100, 196);
+    padding: 6px;
+    margin: 40px;
+    border-radius: 40px;
 }
 
 .noticia {
@@ -41,8 +43,8 @@ nav {
 
 h2{
     text-align: center;
-    margin-top: 40px;
     margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .escalacao{
@@ -56,17 +58,32 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 5px;
+    align-content: center;
 }
 
 .jogador{
     padding: 15px;
     width: 150px;
+    padding: 25px;
 }
 
 .img_jogador{
-    width: 100px;
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
 }
+
+#mosqueteiro{
+    right: 0px;
+    bottom: -140px;
+    position: fixed;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}   
 
 footer{
     background-color: azure;
