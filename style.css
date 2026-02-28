@@ -39,6 +39,35 @@ nav {
     height: 150px;
 }
 
+h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.escalacao{
+    background-color: rgb(56, 100, 196);
+    padding: 40px;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+#jogadores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.jogador{
+    padding: 15px;
+    width: 150px;
+}
+
+.img_jogador{
+    width: 100px;
+}
+
 footer{
     background-color: azure;
     padding: 10px;
